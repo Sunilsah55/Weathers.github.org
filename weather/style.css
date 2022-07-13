@@ -1,0 +1,41 @@
+.city-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+    align-items: center;
+    padding: 20px;
+    height: 200px;
+    margin-top:12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+button{
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+  padding: 15px 24px;
+  margin: 30px;
+  border-radius: 10px;
+  text size: 24px;
+
+}
+input{
+width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+city-container.result{
+    font-size: 25px;
+
+}
+    input::placeholder {
+        font: 20px/3 sans-serif;
+    } 
